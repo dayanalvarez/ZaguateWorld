@@ -149,14 +149,7 @@ p {
 #primarycontent .post .footer ul {
   list-style: none;
 }
-#primarycontent .post .footer ul li {
-  display: inline;
-  line-height: 14px;
-  padding-left: 17px;
-  margin-left: 25px;
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
-}
+
 #primarycontent .post .footer ul li.redmoder {
   background-image: url(../images/a38.gif);
 }
