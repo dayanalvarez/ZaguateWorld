@@ -1,8 +1,11 @@
 #menu{
-    display: flex; 
-    height: alto; 
+    
+    height: auto; 
     margin-bottom: 10px;
     background-color: #53C7FD;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    
     
 }
 #container .principal {
@@ -25,7 +28,7 @@
 }
 #container a.last{
     border-right: 0px;
-
+   
 }
 @media screen and (max-width:700px){
 #container, #container .principal{
@@ -33,3 +36,76 @@
     border-right: 0px;
 }
 }
+
+
+
+  
+  nav .links {
+    float: left;
+   
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  
+  }
+  
+  .subnav .sub-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #53C7FD;
+    margin: 0;
+    
+  }
+  
+  nav .links:hover,
+  .subnav:hover .sub-btn {
+    background-color: #E5017D;
+    color: fff;
+    font-weight: bolder;
+   
+    
+  }
+  
+  .sub-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #53C7FD;
+    width: 100%;
+    z-index: 1;
+ 
+   
+  
+
+  }
+  
+  .sub-content a {
+    float: left;
+   
+    text-decoration: none;
+  }
+  
+  .sub-content a:hover {
+    background-color: #E5017D;
+    color: fff;
+    
+    
+   
+  }
+  
+  .subnav:hover .sub-content {
+    display: block;
+    
+  }
+  
