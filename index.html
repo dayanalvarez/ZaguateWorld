@@ -6,7 +6,6 @@
     <meta name="description" content="El Website de los Zaguates" />
     <meta name="keywords" content="Zaguate, perro, perrito, adoptar" />
     <link rel="stylesheet" type="text/css" href="css/menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
     <div id="container">
       <img src="images/sun.png" alt="sunshine" />
@@ -19,11 +18,12 @@
         <img id="splash" src="images/logo.png" />
       </header>
 
+      
       <nav id="menu">
         <a class="links" href="#">Home</a>
         <a class="links" href="#">Conciencia</a>
         <a class="links" href="#">Noticias</a>
-        <a class="links" href="#">Galería</a>
+        <a class="links" href="Galeria.html">Galería</a>
         <div class="subnav">
           <button class="sub-btn">Adoptar</button>
           <div class="sub-content">
@@ -36,6 +36,8 @@
       </nav>
 
       <main id="pricipalcontent">
+
+
         <div id="primarycontent">
           <article class="post">
             <div class="header">
@@ -110,15 +112,19 @@
             </p>
           </div>
         </aside>
+        <footer id="footer">
+          <a class="links" href="#">Home</a> |
+          <a class="links" href="conciencia.html">Conciencia</a> |
+          <a class="links" href="noticias.html">Noticias</a> |
+          <a class="links" href="galeria.html">Galería</a> |
+          <a class="links" href="acercaDeNosotros.html">Acerca de Nosotros</a>
+          <br />
+          Copyright <sup><credit>&copy;</sup> Zaguate World</credit>
+      </footer>
       </main>
+      
     </div>
 
-    <footer id="footer">
-      <credit>&copy; Derechos Reservados ISW-DAW UTN I-2021</credit>
-      <div id="date">Feb 3, 2021</div>
-      <script>
-        document.getElementById("date").innerHTML = new Date().toDateString();
-      </script>
-    </footer>
+   
   </body>
 </html>
