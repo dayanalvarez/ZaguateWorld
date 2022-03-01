@@ -1,0 +1,265 @@
+@font-face { 
+    font-family: Yanone Kaffeesatz; 
+      src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+      src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+  } 
+  
+  html { 
+    height: 100%;
+  }
+    
+  
+  article, aside, figure, footer, header, hgroup, nav, section { 
+    display:block;
+  }
+  
+  body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dae9e8 url(../images/back.png) repeat-x;
+    color: rgb(54, 53, 53);
+    
+  }
+  
+
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    color: #126179;
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  p {
+    margin-bottom: 14px;
+    text-align: justify;
+  }
+  #outer {
+    width: 1020px;
+    
+    position: relative;
+    overflow: overlay;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border: initial;
+    font-size: 15; 
+    border-radius: 25px 25px 25px 25px;
+  }
+  #header {
+    max-width: 100%;
+    height: 170px;
+  }
+  #header #splash {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+    height: 170px;
+  }
+  
+  #pricipalcontent {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  #primarycontent {
+    width: 60%;
+    float: left;
+    margin-right: 30px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0bfac;
+    margin-bottom: 30px;
+  }
+  
+  #secondarycontent {
+    float: left;
+    width: 30%;
+    background-color: #eb9d79;
+    border-radius: 10px;
+    border: solid 1px #ffb2ad;
+  }
+ 
+
+  #secondarycontent h3 {
+    font-size: 16px;
+    line-height: 35px;
+    color: #e04212;
+    letter-spacing: -1px;
+  }
+  
+ 
+  #secondarycontent .content {
+    padding: 10px 5px;
+  }
+  #primarycontent h1 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #e04212;
+    letter-spacing: -1px;
+   
+    padding: 0px 0px 10px 15px margin-bottom 20px;
+  }
+  #primarycontent .post {
+    margin-bottom: 30px;
+  }
+  #primarycontent .post .contect {
+    padding: 0px 15px 0px 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 15px;
+  }
+  #primarycontent .post .footer {
+    background: url(../images/a33.gif) repeat-x;
+    height: 34px;
+    margin-top: 5px;
+    text-align: right;
+  }
+  #primarycontent .post .footer ul {
+    list-style: none;
+  }
+  
+  
+
+  
+  #footer {
+    clear: both;
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+    line-height: 30px;
+    background-color: #53c7fd;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  #footer a{
+    color: #fff;
+  }
+  @media only screen and (max-width:920px) {
+    /* For mobile phones: */
+    #outer {
+      width: 100%;
+     
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #menu {
+      text-align: center;
+      width: 95%;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #primarycontent {
+      width: 90%;
+      margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #secondarycontent {
+      width: 50%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #tercero {
+      width: 50%;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #cuarto {
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #header #splash {
+      width: 100%;
+      display:flex;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #secondarycontent {
+      width: 100%;
+      display: left;
+      text-align: center;
+    }
+    #secondarycontent .content {
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #tercero {
+      width: 100%;
+      display: left;
+      text-align: center;
+    }
+    #tercero .content {
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    #cuarto {
+      width: 100%;
+      display: left;
+      text-align: center;
+    }
+    #cuarto .content {
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+    primarycontent {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .footer {
+      width: 20%;
+      height: 20px;
+     
+    }
+  }
+     
+  
+  @media only screen and (max-width: 920px) {
+    /* For mobile phones: */
+   tabla {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
+  
+  

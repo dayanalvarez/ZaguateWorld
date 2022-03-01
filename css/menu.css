@@ -1,35 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #menu {
-  height: auto;
-  margin-top: 20px;
-  background-color: #53c7fd;
+  border-radius: 10px 10px 0 0;
+  display: flex;
   overflow: hidden;
+  height: auto;
+  font-size: 16px;
   margin-right: 20px;
   margin-left: 20px;
-  border-radius: 10px 10px 0 0;
-}
-#container .principal {
-  float: left;
-  color: #fff;
-  border-right: 1px solid #fff;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px 25px 10px 25px;
-}
-#container a:hover {
-  color: #fff;
-  font-size: larger;
-  font-weight: bold;
-  background-color: #e5017d;
-}
-#container a.last {
-  border-right: 0px;
+  margin-top: 15px;
+  background-color: #53c7fd;
 }
 
-nav .links {
+#container .links {
+  position: relative;
   float: left;
-
-  font-size: 16px;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,60 +28,38 @@ nav .links {
 .subnav {
   float: left;
   overflow: hidden;
-
 }
 
 .subnav .sub-btn {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #fff;
   padding: 14px 16px;
   background-color: #53c7fd;
-  margin: 0;
- 
 }
 
-nav .links:hover,
+#container .links:hover,
 .subnav:hover .sub-btn {
-  background-color: #e5017d;
-  color: fff;
+  color: #e5017d;
   font-weight: bolder;
 }
 
 .sub-content {
   display: none;
-  position: absolute;
-  left: 0;
   background-color: #53c7fd;
-  width: 100%;
   z-index: 1;
-  margin-right: 10px;
-  margin-left: 20px;
-}
-
-.sub-content a {
-  float: left;
-
-  text-decoration: none;
-}
-
-.sub-content a:hover {
-  background-color: #e5017d;
-  color: fff;
 }
 
 .subnav:hover .sub-content {
   display: block;
+  position: absolute;
 }
 
-@media screen and (max-width: 100px){
-  #container, #container .principal{
-      width: 100%;
-      border-right: 0px;
-      background-color: #488000;
-      color: white;
-     
-  
+@media screen and (max-width: 700px) {
+  #container,
+  #container .principal {
+    width: 100%;
+    border-right: 0px;
   }
 }
